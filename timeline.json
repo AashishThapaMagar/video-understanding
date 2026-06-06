@@ -1,0 +1,170 @@
+[
+  {
+    "second": 0,
+    "player": 23,
+    "referee": 13,
+    "goalkeeper": 4,
+    "ball": 6
+  },
+  {
+    "second": 1,
+    "player": 9,
+    "ball": 4,
+    "goalkeeper": 1,
+    "referee": 3
+  },
+  {
+    "second": 2,
+    "referee": 2,
+    "player": 8,
+    "ball": 4,
+    "goalkeeper": 2
+  },
+  {
+    "second": 3,
+    "player": 16,
+    "referee": 5,
+    "ball": 7,
+    "goalkeeper": 4
+  },
+  {
+    "second": 4,
+    "player": 20,
+    "referee": 6,
+    "ball": 7,
+    "goalkeeper": 4
+  },
+  {
+    "second": 5,
+    "player": 22,
+    "goalkeeper": 1,
+    "ball": 8,
+    "referee": 3
+  },
+  {
+    "second": 6,
+    "player": 20,
+    "ball": 7,
+    "referee": 5,
+    "goalkeeper": 5
+  },
+  {
+    "second": 7,
+    "player": 20,
+    "ball": 7,
+    "goalkeeper": 4,
+    "referee": 5
+  },
+  {
+    "second": 8,
+    "player": 15,
+    "ball": 8,
+    "goalkeeper": 5,
+    "referee": 3
+  },
+  {
+    "second": 9,
+    "player": 10,
+    "ball": 6,
+    "goalkeeper": 4,
+    "referee": 3
+  },
+  {
+    "second": 10,
+    "player": 7,
+    "ball": 6,
+    "referee": 4,
+    "goalkeeper": 5
+  },
+  {
+    "second": 11,
+    "player": 6,
+    "referee": 3,
+    "ball": 5,
+    "goalkeeper": 4
+  },
+  {
+    "second": 12,
+    "player": 8,
+    "ball": 5,
+    "referee": 3,
+    "goalkeeper": 2
+  },
+  {
+    "second": 13,
+    "player": 6,
+    "goalkeeper": 2,
+    "referee": 3,
+    "ball": 3
+  },
+  {
+    "second": 14,
+    "player": 18,
+    "ball": 4,
+    "goalkeeper": 3,
+    "referee": 4
+  },
+  {
+    "second": 15,
+    "player": 20,
+    "ball": 6,
+    "goalkeeper": 5,
+    "referee": 5
+  },
+  {
+    "second": 16,
+    "player": 21,
+    "ball": 8,
+    "referee": 3,
+    "goalkeeper": 2
+  },
+  {
+    "second": 17,
+    "player": 16,
+    "ball": 6,
+    "goalkeeper": 5,
+    "referee": 5
+  },
+  {
+    "second": 18,
+    "ball": 6,
+    "player": 19,
+    "goalkeeper": 4,
+    "referee": 5
+  },
+  {
+    "second": 19,
+    "player": 25,
+    "ball": 7,
+    "goalkeeper": 4,
+    "referee": 6
+  },
+  {
+    "second": 20,
+    "player": 24,
+    "ball": 7,
+    "referee": 5,
+    "goalkeeper": 3
+  },
+  {
+    "second": 21,
+    "goalkeeper": 3,
+    "player": 26,
+    "ball": 6,
+    "referee": 6
+  },
+  {
+    "second": 22,
+    "player": 21,
+    "referee": 3,
+    "ball": 7,
+    "goalkeeper": 3
+  },
+  {
+    "second": 23,
+    "player": 19,
+    "ball": 3,
+    "goalkeeper": 3,
+    "referee": 2
+  }
+]

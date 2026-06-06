@@ -1,0 +1,16 @@
+# Virtual environment (huge, never commit)
+venv/
+
+# Large data and media (not needed in the repo)
+soccer-data/
+*.mp4
+*.avi
+*.zip
+
+# Auto-downloaded base model + training outputs
+yolo26n.pt
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
