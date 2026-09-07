@@ -1,0 +1,239 @@
+{
+  "video": "soccer.mp4",
+  "fps": 30.0,
+  "duration_seconds": 23.2,
+  "totals": {
+    "passes": 4,
+    "turnovers": 0,
+    "shots": 2
+  },
+  "teams_detected": [
+    "A",
+    "B"
+  ],
+  "kit_separation": 2.59,
+  "note": "Counts come from tracking who is nearest each ball. Player IDs are tracker IDs, not shirt numbers, and a player who leaves the frame and comes back may get a new ID. A 'shot' is a fast ball heading at a goalkeeper or the goal end of the frame.",
+  "players": [
+    {
+      "id": 29,
+      "team": "A",
+      "role": "player",
+      "possession_seconds": 1.0,
+      "passes_completed": 1,
+      "passes_attempted": 1,
+      "passes_received": 1,
+      "turnovers": 0,
+      "shots": 1
+    },
+    {
+      "id": 47,
+      "team": "A",
+      "role": "player",
+      "possession_seconds": 1.0,
+      "passes_completed": 1,
+      "passes_attempted": 1,
+      "passes_received": 0,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 1,
+      "team": "A",
+      "role": "player",
+      "possession_seconds": 0.9,
+      "passes_completed": 1,
+      "passes_attempted": 1,
+      "passes_received": 0,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 40,
+      "team": "A",
+      "role": "player",
+      "possession_seconds": 0.5,
+      "passes_completed": 0,
+      "passes_attempted": 0,
+      "passes_received": 1,
+      "turnovers": 0,
+      "shots": 1
+    },
+    {
+      "id": 31,
+      "team": "A",
+      "role": "player",
+      "possession_seconds": 0.1,
+      "passes_completed": 1,
+      "passes_attempted": 1,
+      "passes_received": 1,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 224,
+      "team": "A",
+      "role": "player",
+      "possession_seconds": 1.1,
+      "passes_completed": 0,
+      "passes_attempted": 0,
+      "passes_received": 0,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 63,
+      "team": "B",
+      "role": "player",
+      "possession_seconds": 0.9,
+      "passes_completed": 0,
+      "passes_attempted": 0,
+      "passes_received": 0,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 105,
+      "team": "B",
+      "role": "player",
+      "possession_seconds": 0.4,
+      "passes_completed": 0,
+      "passes_attempted": 0,
+      "passes_received": 0,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 113,
+      "team": "B",
+      "role": "player",
+      "possession_seconds": 0.4,
+      "passes_completed": 0,
+      "passes_attempted": 0,
+      "passes_received": 0,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 148,
+      "team": "B",
+      "role": "player",
+      "possession_seconds": 0.4,
+      "passes_completed": 0,
+      "passes_attempted": 0,
+      "passes_received": 0,
+      "turnovers": 0,
+      "shots": 0
+    },
+    {
+      "id": 15,
+      "team": "A",
+      "role": "player",
+      "possession_seconds": 0.3,
+      "passes_completed": 0,
+      "passes_attempted": 0,
+      "passes_received": 1,
+      "turnovers": 0,
+      "shots": 0
+    }
+  ],
+  "events": [
+    {
+      "frame": 123,
+      "second": 4.1,
+      "from": 29,
+      "to": null,
+      "team": "A",
+      "ball_track": 3,
+      "flight": [
+        26,
+        34
+      ],
+      "travel": 0.382,
+      "speed": 0.0477,
+      "type": "shot"
+    },
+    {
+      "frame": 124,
+      "second": 4.1,
+      "from": 1,
+      "to": 29,
+      "team": "A",
+      "ball_track": 4,
+      "flight": [
+        17,
+        18
+      ],
+      "travel": 0.034,
+      "speed": 0.0341,
+      "type": "pass",
+      "to_team": "A",
+      "separation": 1.6
+    },
+    {
+      "frame": 128,
+      "second": 4.3,
+      "from": 29,
+      "to": 31,
+      "team": "A",
+      "ball_track": 4,
+      "flight": [
+        21,
+        22
+      ],
+      "travel": 0.034,
+      "speed": 0.0341,
+      "type": "pass",
+      "to_team": "A",
+      "separation": 1.4
+    },
+    {
+      "frame": 131,
+      "second": 4.4,
+      "from": 31,
+      "to": 40,
+      "team": "A",
+      "ball_track": 4,
+      "flight": [
+        24,
+        27
+      ],
+      "travel": 0.102,
+      "speed": 0.0341,
+      "type": "pass",
+      "to_team": "A",
+      "separation": 3.0
+    },
+    {
+      "frame": 148,
+      "second": 4.9,
+      "from": 40,
+      "to": null,
+      "team": "A",
+      "ball_track": 4,
+      "flight": [
+        41,
+        60
+      ],
+      "travel": 0.384,
+      "speed": 0.0202,
+      "type": "shot"
+    },
+    {
+      "frame": 234,
+      "second": 7.8,
+      "from": 47,
+      "to": 15,
+      "team": "A",
+      "ball_track": 7,
+      "flight": [
+        19,
+        22
+      ],
+      "travel": 0.116,
+      "speed": 0.0387,
+      "type": "pass",
+      "to_team": "A",
+      "separation": 2.9
+    }
+  ]
+}

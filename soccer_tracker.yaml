@@ -1,0 +1,24 @@
+# BoT-SORT settings tuned for hand-held soccer footage.
+#
+# Why these differ from the ultralytics defaults:
+#   gmc_method: sparseOptFlow  - the camera pans and shakes, so the tracker has to
+#                                cancel out camera motion before matching players.
+#   new_track_thresh: 0.6      - only confident detections start a NEW player ID;
+#                                weak ones can still extend an existing track. This
+#                                is what stops the ID churn in a crowded frame.
+#   track_buffer: 150          - keep a lost player alive for ~5s at 30fps, so a
+#                                player who is briefly hidden keeps their ID.
+#   match_thresh: 0.95         - be generous when matching, the boxes are small.
+#   track_high/low_thresh      - lowered, because distant players score low.
+tracker_type: botsort
+track_high_thresh: 0.15
+track_low_thresh: 0.05
+new_track_thresh: 0.6
+track_buffer: 150
+match_thresh: 0.95
+fuse_score: true
+gmc_method: sparseOptFlow
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+with_reid: false
+model: auto
